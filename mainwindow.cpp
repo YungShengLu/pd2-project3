@@ -5,8 +5,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     ui->setupUi(this);
 
     playList = new QMediaPlaylist;
-    playList->addMedia(QUrl("qrc:/Sound/Main1.mp3"));
-    playList->addMedia(QUrl("qrc:/Sound/Main2.mp3"));
+    playList->addMedia(QUrl("qrc:/sound/Main1.mp3"));
+    playList->addMedia(QUrl("qrc:/sound/Main2.mp3"));
     playList->setCurrentIndex(1);
     playList->setPlaybackMode(QMediaPlaylist::Loop);
 
@@ -785,7 +785,7 @@ void MainWindow::showTime() {
             ui->label_3->setText(QString("POINTS: %1").arg(score));
 
             playList = new QMediaPlaylist;
-            playList->addMedia(QUrl("qrc:/Sound/Fail.mp3"));
+            playList->addMedia(QUrl("qrc:/sound/Fail.mp3"));
             playList->setCurrentIndex(1);
             playList->setPlaybackMode(QMediaPlaylist::Loop);
 
@@ -808,7 +808,7 @@ void MainWindow::showTime() {
             ui->label_3->setText(QString("POINTS: %1").arg(score));
 
             playList = new QMediaPlaylist;
-            playList->addMedia(QUrl("qrc:/Sound/Victory.mp3"));
+            playList->addMedia(QUrl("qrc:/sound/Victory.mp3"));
             playList->setCurrentIndex(1);
             playList->setPlaybackMode(QMediaPlaylist::Loop);
 

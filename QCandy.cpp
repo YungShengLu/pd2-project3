@@ -21,72 +21,72 @@ void QCandy::setType(int cat, int eff) {
     case 1:
         color = "red";
         if (eff == 0)
-            type = ":/Picture/Original/Red.png";
+            type = ":/img/Original/Red.png";
         else if (eff == 1)
-            type = ":/Picture/Striped/Striped_red_h.png";
+            type = ":/img/Striped/Striped_red_h.png";
         else if (eff == 2)
-            type = ":/Picture/Striped/Striped_red_v.png";
+            type = ":/img/Striped/Striped_red_v.png";
         else if (eff == 3)
-            type = ":/Picture/Wrapped/Wrapped_red.png";
+            type = ":/img/Wrapped/Wrapped_red.png";
         break;
     case 2:
         color = "blue";
         if (eff == 0)
-            type = ":/Picture/Original/Blue.png";
+            type = ":/img/Original/Blue.png";
         else if (eff == 1)
-            type = ":/Picture/Striped/Striped_blue_h.png";
+            type = ":/img/Striped/Striped_blue_h.png";
         else if (eff == 2)
-            type = ":/Picture/Striped/Striped_blue_v.png";
+            type = ":/img/Striped/Striped_blue_v.png";
         else if (eff == 3)
-            type = ":/Picture/Wrapped/Wrapped_blue.png";
+            type = ":/img/Wrapped/Wrapped_blue.png";
         break;
     case 3:
         color = "green";
         if (eff == 0)
-            type = ":/Picture/Original/Green.png";
+            type = ":/img/Original/Green.png";
         else if (eff == 1)
-            type = ":/Picture/Striped/Striped_green_h.png";
+            type = ":/img/Striped/Striped_green_h.png";
         else if (eff == 2)
-            type = ":/Picture/Striped/Striped_green_v.png";
+            type = ":/img/Striped/Striped_green_v.png";
         else if (eff == 3)
-            type = ":/Picture/Wrapped/Wrapped_green.png";
+            type = ":/img/Wrapped/Wrapped_green.png";
         break;
     case 4:
         color = "yellow";
         if (eff == 0)
-            type = ":/Picture/Original/Yellow.png";
+            type = ":/img/Original/Yellow.png";
         else if (eff == 1)
-            type = ":/Picture/Striped/Striped_yellow_h.png";
+            type = ":/img/Striped/Striped_yellow_h.png";
         else if (eff == 2)
-            type = ":/Picture/Striped/Striped_yellow_v.png";
+            type = ":/img/Striped/Striped_yellow_v.png";
         else if (eff == 3)
-            type = ":/Picture/Wrapped/Wrapped_yellow.png";
+            type = ":/img/Wrapped/Wrapped_yellow.png";
         break;
     case 5:
         color = "orange";
         if (eff == 0)
-            type = ":/Picture/Original/Orange.png";
+            type = ":/img/Original/Orange.png";
         else if (eff == 1)
-            type = ":/Picture/Striped/Striped_orange_h.png";
+            type = ":/img/Striped/Striped_orange_h.png";
         else if (eff == 2)
-            type = ":/Picture/Striped/Striped_orange_v.png";
+            type = ":/img/Striped/Striped_orange_v.png";
         else if (eff == 3)
-            type = ":/Picture/Wrapped/Wrapped_orange.png";
+            type = ":/img/Wrapped/Wrapped_orange.png";
         break;
     case 6:
         color = "purple";
         if (eff == 0)
-            type = ":/Picture/Original/Purple.png";
+            type = ":/img/Original/Purple.png";
         else if (eff == 1)
-            type = ":/Picture/Striped/Striped_purple_h.png";
+            type = ":/img/Striped/Striped_purple_h.png";
         else if (eff == 2)
-            type = ":/Picture/Striped/Striped_purple_v.png";
+            type = ":/img/Striped/Striped_purple_v.png";
         else if (eff == 3)
-            type = ":/Picture/Wrapped/Wrapped_purple.png";
+            type = ":/img/Wrapped/Wrapped_purple.png";
         break;
     case 7:
         color = "colour";
-        type = ":/Picture/Colour Bomb/ColourBomb.png";
+        type = ":/img/Colour Bomb/ColourBomb.png";
         break;
     }
 

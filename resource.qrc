@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/Background/background3.jpg</file>
+        <file>img/Original/Blue.png</file>
+        <file>img/Original/Green.png</file>
+        <file>img/Original/Orange.png</file>
+        <file>img/Original/Purple.png</file>
+        <file>img/Original/Red.png</file>
+        <file>img/Original/Yellow.png</file>
+        <file>img/Background/Odustransparency.png</file>
+        <file>img/Logo/Symbol.png</file>
+        <file>sound/Fail.mp3</file>
+        <file>sound/Main1.mp3</file>
+        <file>sound/Main2.mp3</file>
+        <file>sound/Victory.mp3</file>
+        <file>img/Striped/Striped_blue_h.png</file>
+        <file>img/Striped/Striped_blue_v.png</file>
+        <file>img/Striped/Striped_green_h.png</file>
+        <file>img/Striped/Striped_green_v.png</file>
+        <file>img/Striped/Striped_orange_h.png</file>
+        <file>img/Striped/Striped_orange_v.png</file>
+        <file>img/Striped/Striped_purple_h.png</file>
+        <file>img/Striped/Striped_purple_v.png</file>
+        <file>img/Striped/Striped_red_h.png</file>
+        <file>img/Striped/Striped_red_v.png</file>
+        <file>img/Striped/Striped_yellow_h.png</file>
+        <file>img/Striped/Striped_yellow_v.png</file>
+        <file>img/Wrapped/Wrapped_blue.png</file>
+        <file>img/Wrapped/Wrapped_green.png</file>
+        <file>img/Wrapped/Wrapped_orange.png</file>
+        <file>img/Wrapped/Wrapped_purple.png</file>
+        <file>img/Wrapped/Wrapped_red.png</file>
+        <file>img/Wrapped/Wrapped_yellow.png</file>
+        <file>img/Colour Bomb/ColourBomb.png</file>
+        <file>img/Logo/Author.png</file>
+        <file>img/Logo/Logo.png</file>
+    </qresource>
+</RCC>
