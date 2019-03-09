@@ -86,7 +86,7 @@ void QCandy::setType(int cat, int eff) {
         break;
     case 7:
         color = "colour";
-        type = ":/img/Colour Bomb/ColourBomb.png";
+        type = ":/img/ColourBomb/ColourBomb.png";
         break;
     }
 

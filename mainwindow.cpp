@@ -605,7 +605,7 @@ bool MainWindow::eventFilter(QObject *watched, QEvent *event) {
 
 void MainWindow::setTime() {
     timer = new QTimer(this);
-    time = new QTime(0, 0, 3);
+    time = new QTime(0, 1, 30);
 
     currTime = time->toString("mm : ss");
     ui->record3->setText(currTime);

@@ -34,7 +34,7 @@
    <string>Candy Crush</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="resource.qrc">
+   <iconset>
     <normaloff>:/Picture/Logo/Symbol.png</normaloff>:/Picture/Logo/Symbol.png</iconset>
   </property>
   <property name="styleSheet">
@@ -2362,7 +2362,7 @@ border-radius: 10px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/Picture/Background/Odustransparency.png);</string>
+     <string notr="true">image: url(:/img/Background/Odustransparency.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -2428,7 +2428,7 @@ border-radius: 10px;</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(:/Picture/Logo/Logo.png);</string>
+      <string notr="true">image: url(:/img/Logo/Logo.png);</string>
      </property>
      <property name="text">
       <string/>
@@ -2444,7 +2444,7 @@ border-radius: 10px;</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(:/Picture/Logo/Symbol.png);</string>
+      <string notr="true">image: url(:/img/Logo/Symbol.png);</string>
      </property>
      <property name="text">
       <string/>
@@ -2465,7 +2465,7 @@ border-radius: 10px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/Picture/Background/background3.jpg);</string>
+     <string notr="true">background-image: url(:/img/Background/background3.jpg);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -2473,7 +2473,6 @@ border-radius: 10px;</string>
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <zorder>widget</zorder>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
@@ -2491,7 +2490,7 @@ border-radius: 10px;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resource.qrc">:/Picture/Logo/Author.png</pixmap>
+     <pixmap>:/Picture/Logo/Author.png</pixmap>
     </property>
    </widget>
    <zorder>frame</zorder>
@@ -2506,8 +2505,6 @@ border-radius: 10px;</string>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources>
-  <include location="resource.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

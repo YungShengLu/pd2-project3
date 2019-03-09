@@ -14,7 +14,7 @@ QMAKE_CXXFLAGS += -std=c++11
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
+    mainwindow.cpp \
     subject.cpp \
     candy.cpp \
     board.cpp \
@@ -40,7 +40,8 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui
 
-DISTFILES +=
+DISTFILES += \
+    LICENSE \
+    README.md
 
-RESOURCES += \
-    resource.qrc
+RESOURCES += resource.qrc

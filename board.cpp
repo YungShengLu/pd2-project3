@@ -2,9 +2,9 @@
 #include "board.h"
 #include "candy.h"
 #include "judgeLined.h"
-#include "judgestriped.h"
+#include "judgeStriped.h"
 #include "judgeWrapped.h"
-#include "judgecolourbomb.h"
+#include "judgeColourBomb.h"
 
 using namespace std;
 
