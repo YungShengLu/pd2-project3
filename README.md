@@ -57,6 +57,8 @@ This repository is going to implement a level of the classic game "Candy Crush" 
 ---
 ## Author
 
+> **NOTICE:** You can follow the contributing process [`CONTRIBUTING.md`](CONTRIBUTING.md) to join me. I am very welcome any issue!
+
 * [David Lu](https://github.com/yungshenglu)
 
 ---
