@@ -1,9 +1,9 @@
 # Candy Crush
 
-This repository is a project in NCKU course "Program Design 2".
+This repository is a project in NCKU course "Program Design 2". If you are interested in this repository or have any quesiton, please feel free to contact with me.
 
 ---
-## Abstract
+## Description
 
 This repository is going to implement a level of the classic game "Candy Crush" in C++ with Qt. Qt is a cross-platform application development framework written in C++ for desktop, embedded and mobile. Supported Platforms include Linux, OS X, Windows, VxWorks, QNX, Android, iOS, BlackBerry, Sailfish OS and others.
 
@@ -15,16 +15,17 @@ This repository is going to implement a level of the classic game "Candy Crush" 
 ---
 ## Execution
 
-1. Compilation
+1. Fork this repository and clone the repository you forked
     ```bash
-    $ make
-    # OR
-    $ qmake
+    # Clone your fork of the repo into the current directory
+    $ git clone https://github.com/<YOUR_USERNAME>/CandyCrush
+    # Navigate to the newly cloned directory
+    $ cd CandyCrush
     ```
-2. Execute the file `CandyCrush.pro` in Qt IDE.
+2. Open your Qt IDE and execute `CandyCrush.pro`
     * If succeed, you will see the picture as follow
         ![](https://i.imgur.com/EGpsKPf.png)
-3. How to play this game?
+3. How to play?
     * The target is get at least 10000 points in 1:30
         ![](https://i.imgur.com/EGpsKPf.png)
     * The rule is follow the gam "Candy Crush" we know
@@ -38,9 +39,9 @@ This repository is going to implement a level of the classic game "Candy Crush" 
 ---
 ## Dependency
 
-> **NOTICE:** Make sure you have already installed the following packages if you are using Ubuntu Linux 14.04 LTS.
+> **NOTICE:** Make sure you have already installed the following packages if you are using Ubuntu Linux 16.04 LTS.
 
-* [Ubuntu Linux 14.04 LTS](http://releases.ubuntu.com/14.04/)
+* [Ubuntu Linux 16.04 LTS](http://releases.ubuntu.com/16.04/)
     * [Package: libpulse-dev (1:4.0-0ubuntu11)](https://packages.ubuntu.com/trusty/libpulse-dev)
     * [Package: gstreamer1.0-plugins-good (1.2.4-1~ubuntu1.4 and others)](https://packages.ubuntu.com/trusty/gstreamer1.0-plugins-good)
     * [Package: gstreamer1.0-plugins-bad (1.2.4-1~ubuntu1.1 and others)](https://packages.ubuntu.com/trusty/gstreamer1.0-plugins-bad)
