@@ -11,12 +11,9 @@ This repository is going to implement a level of the classic game "Candy Crush" 
 ---
 ## Execution
 
-1. Fork this repository and clone the repository you forked
+1. Clone this repository
     ```bash
-    # Clone your fork of the repo into the current directory
-    $ git clone https://github.com/<YOUR_USERNAME>/CandyCrush
-    # Navigate to the newly cloned directory
-    $ cd CandyCrush
+    $ git clone https://github.com/yungshenglu/CandyCrush
     ```
 2. Open your Qt IDE and execute `CandyCrush.pro`
     * If succeed, you will see the picture as follow
